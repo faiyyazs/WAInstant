@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WA Instant — Open WhatsApp chats instantly</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="WA Instant">
+    <meta name="description"
+        content="WA Instant — Open WhatsApp chats instantly without saving the number. Fast, private, and easy." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.example/">
+    <meta property="og:title" content="WA Instant — Open WhatsApp chats instantly">
+    <meta property="og:description"
+        content="Open WhatsApp chats instantly without saving the number. Works from text selection, share sheet and manual entry." />
+    <meta property="og:image" content="assets/images/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourdomain.example/">
+    <meta property="twitter:title" content="WA Instant — Open WhatsApp chats instantly">
+    <meta property="twitter:description"
+        content="Open WhatsApp chats instantly without saving the number. Works from text selection, share sheet and manual entry." />
+    <meta property="twitter:image" content="assets/images/og-image.png">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/svg" />
+
+    <!-- ===== All CSS files ===== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <link rel="stylesheet" href="assets/css/ud-styles.css" />
+
+    <style>
+        /* small WA Instant theme tweaks */
+        .ud-hero {
+            padding: 56px 0;
+        }
+
+        .ud-hero-title {
+            font-weight: 700;
+            color: #0b1220;
+        }
+
+        .ud-hero-desc {
+            color: #374151;
+            max-width: 780px;
+        }
+
+        .feature-icon {
+            font-size: 28px;
+            color: #0f9d58;
+        }
+
+        .muted {
+            color: #6b7280;
+        }
+
+        .card-legal {
+            background: #fff;
+            padding: 22px;
+            border-radius: 10px;
+            box-shadow: 0 8px 30px rgba(2, 6, 23, 0.04);
+            margin-bottom: 18px;
+        }
+
+        .small-note {
+            font-size: 0.95rem;
+            color: #6b7280;
+        }
+
+        .cta-play {
+            margin-right: 12px;
+        }
+
+        .primary-cta {
+            background: linear-gradient(90deg, #00c853, #00bfa5);
+            border: none;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 8px;
+        }
+
+        .secondary-cta {
+            border: 1px solid #d1d5db;
+            background: #fff;
+            color: #111;
+            padding: 12px 20px;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .ud-hero {
+                padding: 30px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ====== Header Start ====== -->
+    <header class="ud-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="index.html">
+                            <!-- swap your logo here -->
+                            <img src="assets/images/logo/logo.svg" alt="WA Instant Logo" />
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ====== Header End ====== -->
+
+    <!-- ====== Hero Start ====== -->
+    <section class="ud-hero" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
+                        <h1 class="ud-hero-title">Open WhatsApp chats instantly — no number saving required</h1>
+                        <p class="ud-hero-desc">
+                            WA Instant lets you jump straight into WhatsApp conversations using any phone number you
+                            select — without adding contacts.
+                            Works from text selection (Send via WA Instant), the share sheet, or manual entry.
+                        </p>
+
+                        <div class="ud-hero-buttons">
+                            <!-- Replace href with your Play Store link -->
+                            <a href="#" class="primary-cta ud-main-btn cta-play" role="button">Get on Google Play</a>
+                            <a href="terms.html" class="secondary-cta ud-btn">Privacy & Terms</a>
+                        </div>
+
+                        <p class="small-note" style="margin-top:12px;">
+                            Free • Ad-supported • No account required • We do not store phone numbers.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
+                        <img src="assets/images/hero/hero-image.svg" alt="hero-image" />
+                        <img src="assets/images/hero/dotted-shape.svg" alt="shape" class="shape shape-1" />
+                        <img src="assets/images/hero/dotted-shape.svg" alt="shape" class="shape shape-2" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== Hero End ====== -->
+
+    <!-- ====== Features Start ====== -->
+    <section id="features" class="ud-features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ud-section-title">
+                        <span>Core Features</span>
+                        <h2>What WA Instant Does</h2>
+                        <p class="muted">Fast, focused features that save time — designed for messaging and privacy.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 18px;">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
+                    <div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
+                        <div class="ud-feature-icon">
+                            <i class="lni lni-rocket feature-icon"></i>
+                        </div>
+                        <div class="ud-feature-content">
+                            <h3 class="ud-feature-title">Instant Launch</h3>
+                            <p class="ud-feature-desc">Open a WhatsApp chat immediately from selection or manual entry.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-sm-6">
+                    <div class="ud-single-feature wow fadeInUp" data-wow-delay=".15s">
+                        <div class="ud-feature-icon">
+                            <i class="lni lni-user feature-icon"></i>
+                        </div>
+                        <div class="ud-feature-content">
+                            <h3 class="ud-feature-title">No Contact Saving</h3>
+                            <p class="ud-feature-desc">Keep your address book clean — temporary chats without adding
+                                contacts.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-sm-6">
+                    <div class="ud-single-feature wow fadeInUp" data-wow-delay=".2s">
+                        <div class="ud-feature-icon">
+                            <i class="lni lni-select feature-icon"></i>
+                        </div>
+                        <div class="ud-feature-content">
+                            <h3 class="ud-feature-title">Selection & Share</h3>
+                            <p class="ud-feature-desc">Works from text selection (PROCESS_TEXT) and from the system
+                                share sheet.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-sm-6">
+                    <div class="ud-single-feature wow fadeInUp" data-wow-delay=".25s">
+                        <div class="ud-feature-icon">
+                            <i class="lni lni-lock feature-icon"></i>
+                        </div>
+                        <div class="ud-feature-content">
+                            <h3 class="ud-feature-title">Privacy First</h3>
+                            <p class="ud-feature-desc">Processing happens locally. We do not store your numbers or
+                                messages.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== Features End ====== -->
+
+    <!-- ====== How It Works Start ====== -->
+    <section id="how" class="ud-about">
+        <div class="container">
+            <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
+                <div class="ud-about-content-wrapper">
+                    <div class="ud-about-content">
+                        <span class="tag">How it works</span>
+                        <h2>Three simple steps</h2>
+                        <p class="muted">Select — Confirm — Chat. That’s it.</p>
+
+                        <div style="margin-top:14px;">
+                            <ol>
+                                <li><strong>Select the number</strong> in any app (Chrome, SMS, Email, Notes).</li>
+                                <li><strong>Choose “Send via WA Instant”</strong> or use Share to open the app.</li>
+                                <li><strong>Confirm or edit</strong> the detected number and open WhatsApp chat
+                                    instantly.</li>
+                            </ol>
+                        </div>
+
+                        <div style="margin-top:18px;">
+                            <a href="#" class="primary-cta ud-main-btn">Open a Number Manually</a>
+                            <a href="mailto:support@example.com" class="secondary-cta ud-btn">Contact Support</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== How It Works End ====== -->
+
+    <!-- ====== FAQ Start ====== -->
+    <section id="faq" class="ud-faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ud-section-title text-center mx-auto">
+                        <span>FAQ</span>
+                        <h2>Common questions</h2>
+                        <p class="muted">Short answers to help users understand selection and link behavior.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:18px;">
+                <div class="col-lg-6">
+                    <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
+                        <div class="accordion">
+                            <button class="ud-faq-btn collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne">
+                                <span class="icon flex-shrink-0">
+                                    <i class="lni lni-chevron-down"></i>
+                                </span>
+                                <span>Why isn't the option in WhatsApp's composer?</span>
+                            </button>
+                            <div id="collapseOne" class="accordion-collapse collapse">
+                                <div class="ud-faq-body">
+                                    WhatsApp's composer uses a custom selection UI that often suppresses third-party
+                                    actions. Use Chrome, SMS, or copy the number and open WA Instant.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s">
+                        <div class="accordion">
+                            <button class="ud-faq-btn collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo">
+                                <span class="icon flex-shrink-0">
+                                    <i class="lni lni-chevron-down"></i>
+                                </span>
+                                <span>Does WA Instant save my contacts?</span>
+                            </button>
+                            <div id="collapseTwo" class="accordion-collapse collapse">
+                                <div class="ud-faq-body">
+                                    No. WA Instant does not save phone numbers to your contacts. Selected text is
+                                    processed locally and not stored or uploaded.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ud-single-faq wow fadeInUp" data-wow-delay=".2s">
+                        <div class="accordion">
+                            <button class="ud-faq-btn collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree">
+                                <span class="icon flex-shrink-0">
+                                    <i class="lni lni-chevron-down"></i>
+                                </span>
+                                <span>What formats are supported?</span>
+                            </button>
+                            <div id="collapseThree" class="accordion-collapse collapse">
+                                <div class="ud-faq-body">
+                                    Use international phone format digits (country code followed by number) for best
+                                    results. The app can also infer local numbers when possible.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
+                        <div class="accordion">
+                            <button class="ud-faq-btn collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour">
+                                <span class="icon flex-shrink-0">
+                                    <i class="lni lni-chevron-down"></i>
+                                </span>
+                                <span>Why does Truecaller appear in Gmail but not WA Instant?</span>
+                            </button>
+                            <div id="collapseFour" class="accordion-collapse collapse">
+                                <div class="ud-faq-body">
+                                    Gmail often turns numbers into tel: links; Truecaller registers as a tel: handler.
+                                    WA Instant appears for selection and share flows — we can also appear for link taps
+                                    if configured to handle tel: or share targets.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s">
+                        <div class="accordion">
+                            <button class="ud-faq-btn collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive">
+                                <span class="icon flex-shrink-0">
+                                    <i class="lni lni-chevron-down"></i>
+                                </span>
+                                <span>Is my data sent anywhere?</span>
+                            </button>
+                            <div id="collapseFive" class="accordion-collapse collapse">
+                                <div class="ud-faq-body">
+                                    No. The app processes selected text locally. We do not upload phone numbers or
+                                    message contents to servers. Ads delivered by AdMob may collect device identifiers
+                                    per their policy.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== FAQ End ====== -->
+
+    <!-- ====== Testimonials Start ====== -->
+    <section id="testimonials" class="ud-testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ud-section-title mx-auto text-center">
+                        <span>User Feedback</span>
+                        <h2>What people say</h2>
+                        <p class="muted">Simple and practical — users love the speed and privacy.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:18px;">
+                <div class="col-lg-4 col-md-6">
+                    <div class="ud-single-testimonial wow fadeInUp" data-wow-delay=".1s">
+                        <div class="ud-testimonial-content">
+                            <p>“Super fast — I can message anyone without saving dozens of contacts.”</p>
+                        </div>
+                        <div class="ud-testimonial-info">
+                            <div class="ud-testimonial-meta">
+                                <h4>Anita R.</h4>
+                                <p>Small business owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="ud-single-testimonial wow fadeInUp" data-wow-delay=".15s">
+                        <div class="ud-testimonial-content">
+                            <p>“Handles phone numbers smoothly. Nice UX and privacy-first approach.”</p>
+                        </div>
+                        <div class="ud-testimonial-info">
+                            <div class="ud-testimonial-meta">
+                                <h4>Ravi K.</h4>
+                                <p>Freelancer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="ud-single-testimonial wow fadeInUp" data-wow-delay=".2s">
+                        <div class="ud-testimonial-content">
+                            <p>“Saved me time while reaching one-time customers — love it.”</p>
+                        </div>
+                        <div class="ud-testimonial-info">
+                            <div class="ud-testimonial-meta">
+                                <h4>Maria P.</h4>
+                                <p>Sales rep</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ====== Testimonials End ====== -->
+
+    <!-- ====== Legal Shortcard (links to full terms.html) ====== -->
+    <section id="legal-short" class="ud-about">
+        <div class="container">
+            <div class="card-legal wow fadeInUp" data-wow-delay=".2s">
+                <h3>Privacy & Terms</h3>
+                <p class="muted">We do not store phone numbers and process all data locally. Ads are served by Google
+                    AdMob.</p>
+                <p class="small-note">Read the full policies:</p>
+                <div style="margin-top:10px;">
+                    <a href="terms.html" class="secondary-cta ud-btn">View Privacy & Terms</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== Footer Start ====== -->
+    <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
+        <div class="ud-footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="ud-widget">
+                            <a href="index.html" class="ud-footer-logo">
+                                <img src="assets/images/logo/logo.svg" alt="logo" />
+                            </a>
+                            <p class="ud-widget-desc">
+                                WA Instant — Open WhatsApp chats instantly without saving the number.
+                            </p>
+                            <ul class="ud-widget-socials">
+                                <li>
+                                    <a href="https://twitter.com/" target="_blank" rel="noopener">
+                                        <i class="lni lni-twitter-filled"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com/" target="_blank" rel="noopener">
+                                        <i class="lni lni-instagram-filled"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://linkedin.com/" target="_blank" rel="noopener">
+                                        <i class="lni lni-linkedin-original"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                        <div class="ud-widget">
+                            <h5 class="ud-widget-title">Links</h5>
+                            <ul class="ud-widget-links">
+                                <li><a href="#how">How it works</a></li>
+                                <li><a href="#faq">FAQ</a></li>
+                                <li><a href="terms.html">Privacy & Terms</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 col-md-8 col-sm-10">
+                        <div class="ud-widget">
+                            <h5 class="ud-widget-title">Support</h5>
+                            <ul class="ud-widget-links">
+                                <li><a href="mailto:support@example.com">Contact Support</a></li>
+                                <li><a href="mailto:support@example.com">support@example.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="ud-footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <ul class="ud-footer-bottom-left">
+                            <li>
+                                <a href="terms.html">Privacy policy</a>
+                            </li>
+
+                            <li>
+                                <a href="terms.html">Terms of service</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="ud-footer-bottom-right">
+                            Developed by Humans with 💚
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ====== Footer End ====== -->
+
+    <!-- ====== Back To Top Start ====== -->
+    <a href="javascript:void(0)" class="back-to-top">
+        <i class="lni lni-chevron-up"> </i>
+    </a>
+    <!-- ====== Back To Top End ====== -->
+
+    <!-- ====== All Javascript Files ====== -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        // ==== for menu scroll (kept from original)
+        const pageLink = document.querySelectorAll(".ud-menu-scroll");
+
+        pageLink.forEach((elem) => {
+            elem.addEventListener("click", (e) => {
+                e.preventDefault();
+                document.querySelector(elem.getAttribute("href")).scrollIntoView({
+                    behavior: "smooth",
+                    offsetTop: 1 - 60,
+                });
+            });
+        });
+
+        // section menu active
+        function onScroll(event) {
+            const sections = document.querySelectorAll(".ud-menu-scroll");
+            const scrollPos =
+                window.pageYOffset ||
+                document.documentElement.scrollTop ||
+                document.body.scrollTop;
+
+            for (let i = 0; i < sections.length; i++) {
+                const currLink = sections[i];
+                const val = currLink.getAttribute("href");
+                const refElement = document.querySelector(val);
+                const scrollTopMinus = scrollPos + 73;
+                if (
+                    refElement &&
+                    refElement.offsetTop <= scrollTopMinus &&
+                    refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
+                ) {
+                    document
+                        .querySelector(".ud-menu-scroll")
+                        .classList.remove("active");
+                    currLink.classList.add("active");
+                } else {
+                    currLink.classList.remove("active");
+                }
+            }
+        }
+
+        window.document.addEventListener("scroll", onScroll);
+    </script>
+</body>
+
+</html>
