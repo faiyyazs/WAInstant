@@ -1,14 +1,10 @@
-# Place this file at: .github/workflows/pages.yml
-# Deploys a simple static site (root index.html) to GitHub Pages using Actions.
-# Works for private repos. Make sure you push a CNAME file (optional) at the repo root
-# containing your custom domain (example.io) if you want a custom domain.
-
+# .github/workflows/pages.yml
 name: Deploy static site to GitHub Pages
 
 on:
   push:
     branches:
-      - main    # change if you deploy from a different branch
+      - main   # change this if you use a different default branch
 
 permissions:
   pages: write
@@ -26,16 +22,10 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Upload site artifact
-        # Upload the repository root (or change `path` to `./docs` if you use a docs/ folder)
+        # Upload the repository root (or change `path` to `./docs` if you use docs/)
         uses: actions/upload-pages-artifact@v1
         with:
           path: .
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
-
-# Notes:
-# - For a docs/ folder, change `path: docs` above and push your files there.
-# - If you include a CNAME file at repo root with your custom domain, GitHub will pick it up.
-# - After the workflow runs successfully the site will be published; check Settings → Pages to
-#   confirm and enable "Enforce HTTPS" if needed.
